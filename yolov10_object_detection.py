@@ -2,7 +2,7 @@ import cv2
 from ultralytics import YOLOv10
 
 
-model = YOLOv10("yolov10x.pt")  
+model = YOLOv10("yolov10b.pt")  
 
 # Load class names
 with open("coco.names", "r") as f:
