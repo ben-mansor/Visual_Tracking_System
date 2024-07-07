@@ -15,14 +15,14 @@ Before you begin, ensure you have met the following requirements:
 - Python 3.x
 - `opencv-python` and `opencv-python-headless`
 - `numpy`
-- YOLOv10 weights file (e.g., `yolov10x.pt`)
+- YOLOv10 weights file (e.g., `yolov10b.pt`)
 - COCO names file (e.g., `coco.names`)
 
 ### Install Dependencies
 
 Use `pip` to install the required packages:
 ```bash
-pip install opencv-python opencv-python-headless numpy
+pip install opencv-python opencv-python-headless yolov10 numpy
 ```
 
 ## Usage  
@@ -32,7 +32,7 @@ pip install opencv-python opencv-python-headless numpy
   git clone https://github.com/ben-mansor/yolov10-object-detection.git
   cd yolov10-object-detection
   ```
-- Ensure you have the YOLOv10 weights file (yolov10x.pt) and COCO names file (coco.names) in the same directory as the script or adjust the paths accordingly.
+- Ensure you have the YOLOv10 weights file (yolov10b.pt) and COCO names file (coco.names) in the same directory as the script or adjust the paths accordingly.
 - Run the script:
   ```bash
   python yolov10_object_detection.py
